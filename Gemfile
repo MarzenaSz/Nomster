@@ -53,3 +53,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Include bootstrap 4
 gem 'bootstrap', '~> 4.0.0.alpha6'
+
+# Include pagination
+#gem 'kaminari'
+gem 'will_paginate', '> 3.0'
+gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'

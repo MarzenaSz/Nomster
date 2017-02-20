@@ -21,6 +21,17 @@
         </blockquote>
       </div>
     <% end %>
+
+  
+
+    <% if place.photos.present? %>
+        <blockquote>
+          <div class="col-12">
+            <b><%= image_tag place.photos.last.Picture, class: "image-class-index" %></b><br /><br /> -
+            <%= place.photos.last.caption %>
+          </div>
+        </blockquote>
+    <% end %>
   </div>
 <% end %>
 

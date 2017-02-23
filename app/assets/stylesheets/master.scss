@@ -3,8 +3,13 @@
 
 body
 {
-  background: image_url('brushed.png');
+  background: image_url('footer_lodyas.png');
   font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+}
+
+a 
+{
+  color: #626a9e;
 }
 
 .booyah-box
@@ -12,12 +17,14 @@ body
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
   box-shadow: 1px 1px 2px 0 #d0d0d0;
-  background: #fff;
-  border: 1px solid #ccc;
+  background: #d4d4d8;
+  border: 1px solid black;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   margin-top: 10px;
   margin-bottom: 15px;
   padding: 20px;
+  border-width:5px;  
+  border-style:outset;
 }
 
 h1, h2, h3, h4, h5, h6 
@@ -28,7 +35,7 @@ h1, h2, h3, h4, h5, h6
 
 .navbar 
 {
-  background: image_url('black_lozenge.png');
+  background: image_url('dark_Tire.png');
   border-radius: 0;
   box-shadow: 0px 1px 3px black;
   margin-bottom: 0;
@@ -36,7 +43,7 @@ h1, h2, h3, h4, h5, h6
 
 .navbar-inverse .navbar-brand 
 {
-  color: #74BED6;
+  color: #626a9e;
   font-family: 'chunkfiveroman', sans-serif;
   letter-spacing: 1.5px;
   font-size: 26px;  
@@ -50,17 +57,21 @@ h1, h2, h3, h4, h5, h6
   left: 0;
   width: 300px;
   height: 50px;
+  color: #d4d4d8;
 }
 
 #my_pagination a 
 {
   margin: 4px;
   text-decoration: none;
+  color: #d4d4d8;
+
 }
 
 .previous_page, .next_page
 {
   margin: 3px;
+  color: #d4d4d8;
 }
 
 .help-block
@@ -88,16 +99,18 @@ h1, h2, h3, h4, h5, h6
       clear: both;
     }
 
-    blockquote {
-  background: #f9f9f9;
+  blockquote 
+  {
+  background: #d4d4d8;
   border-left: 10px solid #ccc;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
 }
 
-blockquote:before {
-  color: #ccc;
+blockquote:before 
+{
+  color: gray;
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
@@ -105,7 +118,8 @@ blockquote:before {
   vertical-align: -0.4em;
 }
 
-blockquote p {
+blockquote p 
+{
   display: inline;
 }
 

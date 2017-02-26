@@ -4,12 +4,12 @@
 body
 {
   background: image_url('footer_lodyas.png');
-  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  font-family: 'alex_brushregular', Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 }
 
 a 
 {
-  color: #626a9e;
+  color: #fbfeff;
 }
 
 .booyah-box
@@ -17,9 +17,9 @@ a
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
   box-shadow: 1px 1px 2px 0 #d0d0d0;
-  background: #d4d4d8;
+  background: #7a8f99;
   border: 1px solid black;
-  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  border-color: #acd2e5 #bfa4bf #a68fa5 #73a6bf;
   margin-top: 10px;
   margin-bottom: 15px;
   padding: 20px;
@@ -27,10 +27,32 @@ a
   border-style:outset;
 }
 
+.booyah-box i, p, small
+{
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+}
+
 h1, h2, h3, h4, h5, h6 
 {
   margin: 0;
   padding: 0;
+}
+
+#bigger
+{
+  font-size: 20px;
+}
+
+.same-dimensions
+{
+  overflow: hidden;
+  height: 300px;
+  width: 450px;
+}
+
+.color-header
+{
+  color: #ADA7B0;
 }
 
 .navbar 
@@ -43,13 +65,14 @@ h1, h2, h3, h4, h5, h6
 
 .navbar-inverse .navbar-brand 
 {
-  color: #626a9e;
-  font-family: 'chunkfiveroman', sans-serif;
+  color: #bee9ff;
+  font-family: 'alex_brushregular', sans-serif;
   letter-spacing: 1.5px;
-  font-size: 26px;  
+  font-size: 30px;  
 }
 
-#my_pagination {
+#my_pagination 
+{
   margin: auto;
   top: 0;
   right: 0;
@@ -57,21 +80,21 @@ h1, h2, h3, h4, h5, h6
   left: 0;
   width: 300px;
   height: 50px;
-  color: #d4d4d8;
+  color: #fbfeff;
 }
 
 #my_pagination a 
 {
   margin: 4px;
   text-decoration: none;
-  color: #d4d4d8;
+  color: #fbfeff;
 
 }
 
 .previous_page, .next_page
 {
   margin: 3px;
-  color: #d4d4d8;
+  color: #fbfeff;
 }
 
 .help-block
@@ -101,16 +124,18 @@ h1, h2, h3, h4, h5, h6
 
   blockquote 
   {
-  background: #d4d4d8;
-  border-left: 10px solid #ccc;
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  background: #ADA7B0;
+  border-left: 10px solid #898D8F;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
+  border-width:5px;  
 }
 
 blockquote:before 
 {
-  color: gray;
+  color: #898D8F;
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
@@ -142,7 +167,7 @@ blockquote p
 
 .carousel-caption 
 {
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'alex_brushregular', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 60px;
   font-weight: 100;
   text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
